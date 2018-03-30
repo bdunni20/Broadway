@@ -1,11 +1,12 @@
 body {
-  text-align: center;
+
 }
 h1 {
   font-family: Helvetica;
   font-size: 70px;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 #home {
   list-style-type: none;
@@ -13,44 +14,54 @@ h1 {
   font-family: Helvetica;
   font-size: 18px;
   color: black;
+  text-align: center;
 }
 a {
   color: black;
+
 }
 #process {
   font-family: Helvetica;
+  text-align: center;
 }
 #process h2 {
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
 }
 
 #process h3 {
   font-size: 23px;
   font-weight: bold;
+  text-align: center;
 }
 #process p {
   font-size: 14px;
+  text-align: center;
 }
-#img {
+.img {
   background-image: url("images/flatiron.png");
+  margin: 0;
 
 }
 #info {
   font-family: Helvetica;
+  text-align: center;
 
 }
 #info h3 {
   font-size: 23px;
   font-weight: bold;
+  text-align: center;
 }
 #info p {
   font-size: 14px;
+  text-align: center;
 }
-footer ul {
+footer {
   font-size: 18px;
   list-style-type: none;
-  padding: 0px;
-  display: inline;
+  background-color: dimgray;
+  display: inline-block;
 
 }
