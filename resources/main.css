@@ -17,7 +17,7 @@ h1 {
   text-align: center;
 }
 a {
-  color: black;
+  color: white;
 
 }
 #process {
@@ -58,14 +58,20 @@ a {
   font-size: 14px;
   text-align: center;
 }
-footer li {
+#footer a {
   font-size: 18px;
-  list-style-type: none;
+  display: inline;
+  padding: 0px;
+  margin: 0px
+
+
+}
+#footer {
+  font-size: 11px;
+  float: left
   background-color: dimgray;
-  display: inline-block;
-  float: left;
-  margin: auto;
-
-} {
-
+  color: white;
+}
+#footer {
+  background-color: dimgray !important;
 }
